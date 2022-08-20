@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: monospace;
+	text-decoration:none;
+	text-align: center;
+	color: #FFFFFF;
+	}
+body{
+    font-family: sans-serif;
+    color: #6f88fc;
+    background-color:black;
+    background-image: url('assets/img/bgage.jpg');
+    background-size: 100%;    
+}
+
+h1 {
+    color: white;
+    font-family: monospace;
+    font-size: 350%;
+    align-items: center;
+    justify-content: bottom;
+    padding: 10px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    }
+.container{
+    max-width: 90%;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+    background: rgba(29, 32, 38, 0.5);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container2{
+    max-width: 90%;
+    margin: 30px;
+    overflow: auto;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+    background: rgba(29, 32, 38, 0.8);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.container3{
+    margin: 5px;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}

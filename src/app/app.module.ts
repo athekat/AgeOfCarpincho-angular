@@ -8,10 +8,12 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { EloratingOldComponent } from './elorating-old/elorating-old.component';
 
 const appRoutes:Routes = [
   {path: 'amount', component: MatchesComponent},
   {path: 'mostusedciv', component: MostusedcivComponent},
+  {path: 'eloratingold', component: EloratingOldComponent},
   {path: 'elorating', component: EloratingComponent}
 ]
 
@@ -22,7 +24,8 @@ const appRoutes:Routes = [
     MostusedcivComponent,
     EloratingComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    EloratingOldComponent
   ],
   imports: [
     BrowserModule,

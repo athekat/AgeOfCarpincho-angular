@@ -5,19 +5,19 @@
 }
 
 * {
-	margin: 0px;
-	padding: 0px;
 	font-family: monospace;
 	text-decoration:none;
 	text-align: center;
 	color: #FFFFFF;
 	}
+
 body{
     font-family: sans-serif;
     color: #6f88fc;
     background-color:black;
     background-image: url('assets/img/bgage.jpg');
-    background-size: 100%;    
+    background-size: 100%; 
+       
 }
 
 h1 {
@@ -48,7 +48,7 @@ h1 {
 }
 
 .container2{
-    max-width: 90%;
+    max-width: 90% auto;
     margin: 30px;
     overflow: auto;
     border: 1px solid steelblue;
@@ -63,10 +63,9 @@ h1 {
 }
 
 .container3{
-    margin: 5px;
+    margin: 30px auto;
     overflow: auto;
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }

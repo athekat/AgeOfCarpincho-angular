@@ -12,6 +12,7 @@ nav a {
   nav a:hover {
     color: white;
     background-color: #42545C;
+    transition-duration: 0.5s;
   }
   nav a:active {
     background-color: black;

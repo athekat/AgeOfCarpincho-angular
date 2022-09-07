@@ -70,9 +70,9 @@ h1 {
 }
 
 #containercivs {
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 
@@ -89,7 +89,7 @@ h1 {
         height: 300px;
         width: 400px;
     }
-    .a {
+    .a { /*No mostrar los gifs del título */
         display: none;
     }
   }

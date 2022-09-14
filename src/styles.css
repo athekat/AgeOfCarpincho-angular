@@ -9,15 +9,14 @@
 	text-decoration:none;
 	text-align: center;
 	color: #FFFFFF;
-	}
+}
 
 body{
     font-family: sans-serif;
     color: #6f88fc;
     background-color:black;
     background-image: url('assets/img/bgage.jpg');
-    background-size: 100%;
-   
+    background-size: cover;
 }
 
 h1 {
@@ -30,7 +29,6 @@ h1 {
     margin-top: 0;
     display: flex;
     justify-content: center;
-  
     }
 .container{
     max-width: 90%;

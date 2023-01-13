@@ -16,7 +16,7 @@ body{
     color: #6f88fc;
     background-color:black;
     background-image: url('assets/img/bgage.jpg');
-    background-size: cover;
+    background-size:initial;
 }
 
 h1 {
@@ -88,5 +88,8 @@ h1 {
     }
     .a { /*No mostrar los gifs del título */
         display: none;
+    }
+    body{
+        background-size: 100%;
     }
   }
